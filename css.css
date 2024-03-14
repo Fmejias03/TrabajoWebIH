@@ -1,0 +1,71 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #ff2800;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+}
+main {
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+form {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+form label {
+    font-weight: bold;
+}
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+form input[type="submit"] {
+    background-color: #ff2800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #ff4510;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+    form input[type="text"], form input[type="submit"] {
+        width: 100%;
+    }
+}

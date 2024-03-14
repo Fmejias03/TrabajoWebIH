@@ -1,0 +1,36 @@
+body {
+    background-color: #004d40;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #00796b;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #00695c;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+}
+main {
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+footer {
+    background-color: #00695c;
+    padding: 10px;
+    text-align: center;
+}
